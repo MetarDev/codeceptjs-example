@@ -1,7 +1,7 @@
 {
   "name": "codeceptjs-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is part of example code repository for codeceptjs",
   "main": "codecept.conf.js",
   "scripts": {
     "test": "npx codeceptjs run --grep @manual --invert --steps"

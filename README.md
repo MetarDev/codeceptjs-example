@@ -1,4 +1,7 @@
-# How to setup tests locally
+# CodeceptJS example
+This is a repository for an example [CodeceptJS](https://codecept.io/) setup from Infinum JS talks.
+
+## How to setup tests locally
 1. `npm install` to install all dependencies
 2. Run (all) tests using `npm test` (this way all manual tests are excluded)
 
@@ -37,6 +40,6 @@ Scenario('Manual - Cancel existing subscription', async (subscriptionPage) => {
 ```
 
 ## Resources
-[codecept.io - basics](https://codecept.io/basics)
-[codecept.io - best practices](https://codecept.io/best)
-[E2E testing - best practices](https://docs.cypress.io/guides/references/best-practices.html)
+- [codecept.io - basics](https://codecept.io/basics)
+- [codecept.io - best practices](https://codecept.io/best)
+- [E2E testing - best practices](https://docs.cypress.io/guides/references/best-practices.html)
