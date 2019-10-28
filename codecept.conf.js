@@ -4,7 +4,7 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'http://example.com',
-      show: false,
+      show: true,
       windowSize: '1920x1080',
       waitForAction: 0,
       pressKeyDelay: 0,
