@@ -2,8 +2,9 @@
 This is a repository for an example [CodeceptJS](https://codecept.io/) setup from Infinum JS talks.
 
 ## How to setup tests locally
-1. `npm install` to install all dependencies
-2. Run (all) tests using `npm test` (this way all manual tests are excluded)
+1. Clone this project anywhere on your machine
+2. `npm install` to install all dependencies
+3. Run (all) tests using `npm test` (this way all manual tests are excluded)
 
 ## Writing tests
 Preferably all tests should be.

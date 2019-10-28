@@ -6,7 +6,7 @@ exports.config = {
       url: 'http://example.com',
       show: true,
       windowSize: '1920x1080',
-      waitForAction: 0,
+      waitForAction: 1000,
       pressKeyDelay: 0,
     },
   },
