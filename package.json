@@ -1,0 +1,24 @@
+{
+  "name": "codeceptjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "test": "npx codeceptjs run --grep @manual --invert --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGrginovInf/codeceptjs-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanGrginovInf/codeceptjs-example/issues"
+  },
+  "homepage": "https://github.com/IvanGrginovInf/codeceptjs-example#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.3.5",
+    "puppeteer": "^2.0.0"
+  }
+}
