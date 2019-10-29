@@ -13,4 +13,6 @@ Scenario('Change from "master to "test-branch"', (I) => {
   I.click(branchSelectorBtn);
 
   I.seeInCurrentUrl('tree/test-branch');
+
+  I.wait(30);
 });

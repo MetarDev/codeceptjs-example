@@ -20,5 +20,8 @@
   "devDependencies": {
     "codeceptjs": "^2.3.5",
     "puppeteer": "^2.0.0"
+  },
+  "dependencies": {
+    "mochawesome": "^4.1.0"
   }
 }
