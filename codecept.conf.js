@@ -14,7 +14,11 @@ exports.config = {
     I: './codeceptjs/steps/steps_file.js',
   },
   bootstrap: null,
-  mocha: {},
+  mocha: {
+    "reporterOptions": {
+      "reportDir": "output"
+    },
+  },
   name: 'codeceptjs-example',
   plugins: {
     customLocator: {
